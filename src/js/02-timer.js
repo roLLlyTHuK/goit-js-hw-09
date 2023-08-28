@@ -50,7 +50,7 @@ startButton.addEventListener("click", () => {
   const currentTime = new Date().getTime();
   const targetTime = selectedDate.getTime();
   let timeDifference = targetTime - currentTime;
-  //todo: зробимо знову кнопку неактивною до вибору нової дати
+  // зробимо знову кнопку start неактивною до вибору нової дати
     startButton.disabled = true;
 
   const timerInterval = setInterval(() => {
